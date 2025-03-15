@@ -27205,15 +27205,101 @@ PHOTOGRAPHER_CFG_TABLE: !array
         Pretty Name: Event Flag
         Size: 2
         Base: 16
-      UNKNOWNA: !unknown
-        Size: 3
-      UNKNOWNB: !int
+      X: !int
+        Pretty Name: Map X
         Size: 2
-      UNKNOWNC: !int
+      'Y': !int
+        Pretty Name: Map Y
+        Size: 2
+      PALETTEOFFSET: !int
+        Pretty Name: Palette Offset
+        Size: 2
+      SLIDEDIRECTION: !int
+        Pretty Name: Slide Direction
         Size: 1
         Base: 16
-      UNKNOWND: !unknown
-        Size: 54
+      SLIDEDISTANCE: !int
+        Pretty Name: Slide Distance
+        Size: 1
+        Base: 16
+      PHOTOGRAPHERX: !int
+        Pretty Name: Photographer X
+        Size: 2
+      PHOTOGRAPHERY: !int
+        Pretty Name: Photographer Y
+        Size: 2
+      PARTY1X: !int
+        Pretty Name: Party Member 1 X
+        Size: 2
+      PARTY1Y: !int
+        Pretty Name: Party Member 1 Y
+        Size: 2
+      PARTY2X: !int
+        Pretty Name: Party Member 2 X
+        Size: 2
+      PARTY2Y: !int
+        Pretty Name: Party Member 2 Y
+        Size: 2
+      PARTY3X: !int
+        Pretty Name: Party Member 3 X
+        Size: 2
+      PARTY3Y: !int
+        Pretty Name: Party Member 3 Y
+        Size: 2
+      PARTY4X: !int
+        Pretty Name: Party Member 4 X
+        Size: 2
+      PARTY4Y: !int
+        Pretty Name: Party Member 4 Y
+        Size: 2
+      PARTY5X: !int
+        Pretty Name: Party Member 5 X
+        Size: 2
+      PARTY5Y: !int
+        Pretty Name: Party Member 5 Y
+        Size: 2
+      PARTY6X: !int
+        Pretty Name: Party Member 6 X
+        Size: 2
+      PARTY6Y: !int
+        Pretty Name: Party Member 6 Y
+        Size: 2
+      NPC1X: !int
+        Pretty Name: NPC 1 X
+        Size: 2
+      NPC1Y: !int
+        Pretty Name: NPC 1 Y
+        Size: 2
+      NPC1SPRITE: !int
+        Pretty Name: NPC 1 Sprite
+        Size: 2
+      NPC2X: !int
+        Pretty Name: NPC 2 X
+        Size: 2
+      NPC2Y: !int
+        Pretty Name: NPC 2 Y
+        Size: 2
+      NPC2SPRITE: !int
+        Pretty Name: NPC 2 Sprite
+        Size: 2
+      NPC3X: !int
+        Pretty Name: NPC 3 X
+        Size: 2
+      NPC3Y: !int
+        Pretty Name: NPC 3 Y
+        Size: 2
+      NPC3SPRITE: !int
+        Pretty Name: NPC 3 Sprite
+        Size: 2
+      NPC4X: !int
+        Pretty Name: NPC 4 X
+        Size: 2
+      NPC4Y: !int
+        Pretty Name: NPC 4 Y
+        Size: 2
+      NPC4SPRITE: !int
+        Pretty Name: NPC 4 Sprite
+        Size: 2
   Offset: 0xE12F8A
 COMPRESSED_PALETTE_UNKNOWN: !unknown
   Size: 2549
